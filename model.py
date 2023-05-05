@@ -1,0 +1,5 @@
+model = BigramLanguageModel("names.txt")
+table = model.get_probability_table()
+name = model.generate_name()
+print("New name:", name)
+print("Probability table:", table)
